@@ -96,7 +96,7 @@ public class Salesperson{
             pstmt_search.setString(1, "%" + searchKeyword + "%");
             ResultSet rs_search = pstmt_search.executeQuery();
 
-            if(!rs_search.next()){
+            if(!rs_search.isBeforeFirst()){
                 System.out.println("No matching parts found!");
                 return;
             }
