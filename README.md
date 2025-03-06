@@ -2,10 +2,7 @@
 
 ## Group Information
 
-- Group Number: ???
-
-- Group Members:
-  - ???
+- Group Number:
 
 ## Description of files
 
